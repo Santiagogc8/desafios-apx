@@ -1,5 +1,5 @@
 import productsList from "./products.json" assert { type: "json" };
-import orderBy from "../node_modules/lodash-es/orderBy.js";
+import orderBy from "lodash-es/orderBy";
 
 export function productsListComponent() {
   const section = document.createElement("section");
